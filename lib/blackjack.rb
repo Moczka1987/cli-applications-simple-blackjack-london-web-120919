@@ -44,9 +44,7 @@ if "s"
    end
   end
 end
-end 
-end
-end 
+
 
 
 def invalid_command
