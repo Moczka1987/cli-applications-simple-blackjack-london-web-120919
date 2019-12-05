@@ -55,6 +55,8 @@ def runner
   until display_card_total(card_total) > 21
 end_game
 end 
+end 
+
 
 #####################################################
 # get every test to pass before coding runner below #
