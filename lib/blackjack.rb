@@ -45,7 +45,6 @@ if user_input == "s"
     return card_total
   else 
   invalid_command
-   return cart_total
   end
 end
 
