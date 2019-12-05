@@ -35,6 +35,7 @@ if "s"
   return current_card_total
   elsif "h"
   new_total = deal_card + current_card_total
+  
   else
   invalid_command
   prompt_user
