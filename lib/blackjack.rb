@@ -41,7 +41,7 @@ if user_input == "s"
   new_card_number = deal_card
   card_total += new_card_number
     return card_total
-  else
+  else user_input != "h" && "s"
   invalid_command
   prompt_user
    return cart_total
