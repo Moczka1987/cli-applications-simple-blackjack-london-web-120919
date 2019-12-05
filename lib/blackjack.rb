@@ -30,6 +30,8 @@ end
 
 def invalid_command
   puts "Please enter a valid command"
+  prompt_user
+  get_user_input
 end
 
 def hit?(card_total)
@@ -43,7 +45,6 @@ if user_input == "s"
     return card_total
   else user_input != "h" && "s"
   invalid_command
-  prompt_user
    return cart_total
   end
 end
