@@ -44,6 +44,7 @@ if "s"
    return cart_total
   end
 end
+end
 
 
 
