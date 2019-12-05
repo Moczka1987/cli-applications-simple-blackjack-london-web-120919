@@ -34,6 +34,7 @@ get_user_input
 if "s"
   return card_total
   elsif "h"
+  deal_card
   new_card_number = deal_card
   new_total = new_card_number + card_total
   display_card_total(card_total)
