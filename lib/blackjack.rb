@@ -48,8 +48,13 @@ if user_input == "s"
   end
 end
 
-def runner 
-  
+def runner
+  welcome 
+  deal_card
+  hit?
+  until display_card_total(card_total) > 21
+end_game
+end 
 
 #####################################################
 # get every test to pass before coding runner below #
