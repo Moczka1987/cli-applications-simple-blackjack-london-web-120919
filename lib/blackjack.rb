@@ -37,7 +37,7 @@ if "s"
   new_card_number = deal_card
   new_total = new_card_number + card_total
   display_card_total(card_total)
-    return card_total
+    return new_total
   else
   invalid_command
   prompt_user
