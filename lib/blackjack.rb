@@ -34,7 +34,7 @@ get_user_input
 if "s"
   return current_card_total
   elsif "h"
-  new_total = deal_card _ current_card_total
+  new_total = deal_card + current_card_total
   else
   invalid_command
   prompt_user
