@@ -33,7 +33,7 @@ prompt_user
 get_user_input
 if "s"
   return card_total
-  if "h"
+  elsif "h"
   new_card_number = deal_card
   card_total += new_card_number
     return card_total
@@ -43,7 +43,7 @@ if "s"
    return cart_total
   end
 end
-end
+
 
 
 
