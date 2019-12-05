@@ -43,6 +43,7 @@ if user_input == "s"
     return card_total
   else user_input != "h" && "s"
   invalid_command
+  prompt_user
    return cart_total
   end
 end
