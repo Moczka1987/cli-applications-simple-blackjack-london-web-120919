@@ -41,7 +41,6 @@ if "s"
   invalid_command
   prompt_user
    return cart_total
-   end
   end
 end
 
