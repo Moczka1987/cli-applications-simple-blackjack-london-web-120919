@@ -48,6 +48,8 @@ if user_input == "s"
   end
 end
 
+def runner 
+  
 
 #####################################################
 # get every test to pass before coding runner below #
