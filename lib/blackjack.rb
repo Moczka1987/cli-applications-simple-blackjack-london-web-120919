@@ -28,8 +28,19 @@ display_card_total(card_total)
 card_total
 end
 
-def hit?
-  # code hit? here
+def hit?()
+prompt_user
+get_user_input
+if "s"
+  return current_card_total
+  elsif "h"
+  new_total = deal_card _ current_card_total
+  else
+  invalid_command
+  prompt_user
+   return current_cart_total
+   end
+  end
 end
 
 def invalid_command
